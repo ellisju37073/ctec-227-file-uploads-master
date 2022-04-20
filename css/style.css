@@ -1,0 +1,45 @@
+body {
+    background-color:gray;
+  }
+
+
+    
+
+img {
+    height: 250px;
+    width: fit-content;
+    
+    /* padding: auto */;
+}
+
+
+.container > h2 {
+    flex: 0 0 100%;
+      background: white;
+    text-align: center;
+    text-transform: capitalize;
+    text-transform: full-width;
+    border-bottom: 10px solid black;
+    font-size: 40px;
+    }
+ .container {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5px;
+        justify-content: space-evenly;
+        background-color: white;
+        border: 5px solid black;
+        align-content: center;
+        margin: 5px;
+        gap: 25px;
+
+       
+   }
+
+
+
+
+
+
+
+

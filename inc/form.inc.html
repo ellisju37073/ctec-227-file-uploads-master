@@ -1,0 +1,16 @@
+<form style="text-align: center;" action="<?= $_SERVER['PHP_SELF'] ?>" method="post" enctype="multipart/form-data">
+    <input type="hidden" name="MAX_FILE_SIZE" value="100000000">
+    <label for="select a folder"></label>
+    <br>
+    <select name="folder" id="folder">
+        <option value="uploads">--Select a Folder</option>
+        <option value="uploads">Upload Photos</option>
+        <option value="vacation">Vacation Photos</option>
+        <option value="pets">Pet Photos</option>
+    </select>
+    <hr>
+    <br>
+    <br>
+    <input type="file" name="file_upload">
+    <input type="submit" name="submit" value="Upload">
+</form>
